@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 9f1dc7e8d27094c06a9f83d3d9270dd7
+timeCreated: 1426463678
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Triangle: {fileID: 194994, guid: 74f6a8729850d4b9a93a188a998733ba, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
