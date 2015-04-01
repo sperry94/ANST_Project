@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CircleScript.cs" />
+     <Compile Include="Assets\Scripts\shooterScript.cs" />
      <Compile Include="Assets\Scripts\spawnerScript.cs" />
      <Compile Include="Assets\Scripts\triangleScript.cs" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
