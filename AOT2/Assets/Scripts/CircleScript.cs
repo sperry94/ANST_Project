@@ -3,10 +3,12 @@ using System.Collections;
 
 public class CircleScript : MonoBehaviour {
 
+	public Vector2 speed;
+
 	// Use this for initialization
 	void Start () {
 	
-		Vector2 speed = GetComponent<Rigidbody2D>().velocity;
+		speed = GetComponent<Rigidbody2D>().velocity;
 
 		speed.x = -5;
 		

@@ -3,9 +3,9 @@ using System.Collections;
 
 public class triangleScript : MonoBehaviour {
 
-	void Start () {
+	public Vector2 speed;
 
-		Vector2 speed = GetComponent<Rigidbody2D>().velocity;
+	void Start () {
 
 		speed.y = -5;
 
@@ -14,7 +14,12 @@ public class triangleScript : MonoBehaviour {
 		Destroy (gameObject,3);
 
 	}
-	
+
+	public void setSpeed(int x)
+	{
+		return;
+	}
+
 	// Update is called once per frame
 	void Update () {
 	
