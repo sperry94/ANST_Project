@@ -1,13 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/shooterScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/squareSpawnScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/shooterScript.cs" Line="13" Column="18" />
-      <File FileName="Assets/Scripts/triangleScript.cs" Line="12" Column="49" />
-      <File FileName="Assets/Scripts/spawnerScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CircleScript.cs" Line="13" Column="16" />
+      <File FileName="Assets/Scripts/shooterScript.cs" Line="13" Column="17" />
+      <File FileName="Assets/Scripts/triangleScript.cs" Line="28" Column="24" />
+      <File FileName="Assets/Scripts/spawnerScript.cs" Line="19" Column="55" />
+      <File FileName="Assets/Scripts/CircleScript.cs" Line="26" Column="4" />
       <File FileName="Assets/UnityTestTools/Examples/UnitTestExamples/Editor/SampleTests.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/squareScript.cs" Line="18" Column="28" />
+      <File FileName="Assets/Scripts/squareScript.cs" Line="23" Column="17" />
+      <File FileName="Assets/Scripts/squareSpawnScript.cs" Line="10" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
