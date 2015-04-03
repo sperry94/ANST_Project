@@ -13,9 +13,6 @@ public class CircleScript : MonoBehaviour {
 		speed.x = -10;
 		
 		GetComponent<Rigidbody2D> ().velocity = speed;
-		
-		Destroy (gameObject,5);
-
 	}
 	
 	// Update is called once per frame
@@ -30,5 +27,10 @@ public class CircleScript : MonoBehaviour {
 			Destroy (obj.gameObject);
 			Destroy(gameObject);
 		}
+	}
+
+	public void OnBecameInvisible()
+	{
+		Destroy (gameObject);
 	}
 }

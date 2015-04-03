@@ -15,6 +15,7 @@ public class squareScript : MonoBehaviour {
 
 	public void OnTriggerEnter2D(Collider2D obj)
 	{
+		Destroy (obj.gameObject);
 		Destroy (gameObject);
 	}
 }

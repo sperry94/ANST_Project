@@ -11,8 +11,6 @@ public class triangleScript : MonoBehaviour {
 
 		GetComponent<Rigidbody2D> ().velocity = speed;
 
-		Destroy (gameObject,3);
-
 	}
 
 	public void setSpeed(int x)
@@ -23,5 +21,10 @@ public class triangleScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+	}
+
+	public void OnBecameInvisible()
+	{
+		Destroy (gameObject);
 	}
 }
