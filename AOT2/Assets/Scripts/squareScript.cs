@@ -15,7 +15,12 @@ public class squareScript : MonoBehaviour {
 
 	public void OnTriggerEnter2D(Collider2D obj)
 	{
-		Destroy (obj.gameObject);
-		Destroy (gameObject);
+		if (obj.gameObject.name == "Triangle(Clone)") {
+			Destroy (obj.gameObject);
+			Destroy (gameObject);
+		} 
+		else {
+			Destroy (obj.gameObject);
+		}
 	}
 }

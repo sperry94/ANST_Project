@@ -10,7 +10,7 @@ public class CircleScript : MonoBehaviour {
 	
 		speed = GetComponent<Rigidbody2D>().velocity;
 
-		speed.x = -10;
+		speed.x = -20;
 		
 		GetComponent<Rigidbody2D> ().velocity = speed;
 	}
