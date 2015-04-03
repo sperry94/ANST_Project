@@ -10,7 +10,7 @@ public class CircleScript : MonoBehaviour {
 	
 		speed = GetComponent<Rigidbody2D>().velocity;
 
-		speed.x = -5;
+		speed.x = -10;
 		
 		GetComponent<Rigidbody2D> ().velocity = speed;
 		
@@ -21,5 +21,14 @@ public class CircleScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+	}
+
+	public void OnTriggerEnter2D(Collider2D obj)
+	{
+		if(obj.gameObject.name == "Triangle(Clone)")
+		{
+			Destroy (obj.gameObject);
+			Destroy(gameObject);
+		}
 	}
 }
