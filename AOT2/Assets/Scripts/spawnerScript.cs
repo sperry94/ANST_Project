@@ -5,10 +5,15 @@ public class spawnerScript : MonoBehaviour {
 
 	public float spawnt = 1;
 	public GameObject Triangle;
+	public GUIText scoreText;
 
-	// Use this for initialization
+	public int score;
+
+
 	void Start () {
 		InvokeRepeating ("newTriangle", spawnt, spawnt);
+		score = 0;
+		scoreText.text = "Score: 0";
 	}
 
 	void newTriangle()
@@ -20,8 +25,14 @@ public class spawnerScript : MonoBehaviour {
 
 	}
 
-	// Update is called once per frame
+	public void AddScore(int x)
+	{
+		score += x;
+	}
+
 	void Update () {
-	
+		float totScore = score + Time.time;
+		int totScoreInt = (int)totScore;
+		scoreText.text = "Score: " + totScoreInt; 
 	}
 }

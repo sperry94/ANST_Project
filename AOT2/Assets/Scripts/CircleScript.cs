@@ -4,8 +4,8 @@ using System.Collections;
 public class CircleScript : MonoBehaviour {
 
 	public Vector2 speed;
-
-	// Use this for initialization
+	public spawnerScript spawnScript;
+	
 	void Start () {
 	
 		speed = GetComponent<Rigidbody2D>().velocity;
@@ -13,11 +13,13 @@ public class CircleScript : MonoBehaviour {
 		speed.x = -20;
 		
 		GetComponent<Rigidbody2D> ().velocity = speed;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+		GameObject spawnScriptObject = GameObject.FindWithTag ("spawnerScript");
+
+		if (spawnScriptObject != null) 
+		{
+			spawnScript = spawnScriptObject.GetComponent <spawnerScript>();
+		}
 	}
 
 	public void OnTriggerEnter2D(Collider2D obj)
@@ -26,6 +28,7 @@ public class CircleScript : MonoBehaviour {
 		{
 			Destroy (obj.gameObject);
 			Destroy(gameObject);
+			spawnScript.AddScore(10);
 		}
 	}
 
