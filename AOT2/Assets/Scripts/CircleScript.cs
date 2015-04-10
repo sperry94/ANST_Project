@@ -1,17 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CircleScript : MonoBehaviour {
+public class CircleScript : MonoBehaviour 
+{
 
-	public Vector2 speed;
+	public Vector2 speed = new Vector2(-20,0);
 	public spawnerScript spawnScript;
 	
-	void Start () {
-	
-		speed = GetComponent<Rigidbody2D>().velocity;
-
-		speed.x = -20;
-		
+	void Start () 
+	{
 		GetComponent<Rigidbody2D> ().velocity = speed;
 
 		GameObject spawnScriptObject = GameObject.FindWithTag ("spawnerScript");

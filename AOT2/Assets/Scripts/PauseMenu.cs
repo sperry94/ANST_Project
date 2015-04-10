@@ -1,14 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PauseMenu : MonoBehaviour {
+public class PauseMenu : MonoBehaviour
+{
 
 	public GUISkin mySkin;
 
 	private Rect windowRect;
 	private bool paused = false, waited = true;
 
-	private void Start() {
+	private void Start()
+	{
 		windowRect = new Rect (Screen.width / 2 - 100, Screen.height / 2 - 100, 200, 200);
 	}
 
@@ -20,14 +22,15 @@ public class PauseMenu : MonoBehaviour {
 	private void Update()
 	{
 		if (waited)
-			if (Input.GetKey(KeyCode.Escape) || Input.GetKey(KeyCode.P)) {
+			if (Input.GetKey(KeyCode.Escape) || Input.GetKey(KeyCode.P)) 
+			{
 				if (paused)
 					paused = false;
 				else
 					paused = true;
 
-			waited = false;
-			Invoke("waiting", 0.3f);
+				waited = false;
+				Invoke("waiting", 0.3f);
 			}
 		if (paused) 
 			Time.timeScale = 0;
@@ -41,16 +44,19 @@ public class PauseMenu : MonoBehaviour {
 			windowRect = GUI.Window(0, windowRect, windowFunc, "Pause Menu");
 	}
 
-	private void windowFunc(int id) 
+	private void windowFunc(int id)
 	{
-		if (GUILayout.Button ("Resume")) {
+		if (GUILayout.Button ("Resume"))
+		{
 			paused = false;
 		}
 		GUILayout.BeginHorizontal ();
-		if (GUILayout.Button ("Options")) {
+		if (GUILayout.Button ("Options"))
+		{
 
 		}
-		if (GUILayout.Button ("Quit")) {
+		if (GUILayout.Button ("Quit"))
+		{
 
 		}
 		GUILayout.EndHorizontal ();

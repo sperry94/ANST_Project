@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class spawnerScript : MonoBehaviour {
+public class spawnerScript : MonoBehaviour 
+{
 
 	public float spawnt = 1;
 	public GameObject Triangle;
@@ -10,7 +11,8 @@ public class spawnerScript : MonoBehaviour {
 	public int score;
 
 
-	void Start () {
+	void Start () 
+	{
 		InvokeRepeating ("newTriangle", spawnt, spawnt);
 		score = 0;
 		scoreText.text = "Score: 0";
@@ -30,7 +32,8 @@ public class spawnerScript : MonoBehaviour {
 		score += x;
 	}
 
-	void Update () {
+	void Update () 
+	{
 		float totScore = score + Time.time;
 		int totScoreInt = (int)totScore;
 		scoreText.text = "Score: " + totScoreInt; 

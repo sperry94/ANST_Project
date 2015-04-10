@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class triangleScript : MonoBehaviour {
+public class triangleScript : MonoBehaviour 
+{
 
 	public Vector2 speed;
 
-	void Start () {
+	void Start () 
+	{
 
 		speed.y = -5;
 
@@ -16,11 +18,6 @@ public class triangleScript : MonoBehaviour {
 	public void setSpeed(int x)
 	{
 		return;
-	}
-
-	// Update is called once per frame
-	void Update () {
-	
 	}
 
 	public void OnBecameInvisible()
