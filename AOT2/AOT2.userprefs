@@ -1,13 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/shooterScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PauseMenu.cs">
     <Files>
-      <File FileName="Assets/Scripts/CircleScript.cs" Line="11" Column="3" />
-      <File FileName="Assets/Scripts/shooterScript.cs" Line="14" Column="17" />
-      <File FileName="Assets/Scripts/spawnerScript.cs" Line="39" Column="27" />
-      <File FileName="Assets/Scripts/squareScript.cs" Line="5" Column="1" />
-      <File FileName="Assets/Scripts/squareSpawnScript.cs" Line="9" Column="2" />
-      <File FileName="Assets/Scripts/triangleScript.cs" Line="3" Column="1" />
+      <File FileName="Assets/Scripts/CircleScript.cs" Line="19" Column="4" />
+      <File FileName="Assets/Scripts/shooterScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/spawnerScript.cs" Line="11" Column="4" />
+      <File FileName="Assets/Scripts/squareScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/squareSpawnScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/triangleScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MenuScript.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ManagerScrip.cs" Line="26" Column="51" />
+      <File FileName="Assets/Scripts/GOManagerScript.cs" Line="5" Column="24" />
+      <File FileName="Assets/Scripts/PauseMenu.cs" Line="60" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

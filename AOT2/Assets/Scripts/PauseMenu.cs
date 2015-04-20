@@ -55,11 +55,14 @@ public class PauseMenu : MonoBehaviour
 		{
 
 		}
-		if (GUILayout.Button ("Quit"))
+		if (GUILayout.Button ("End Game"))
 		{
-
+			Application.LoadLevel(2);
 		}
 		GUILayout.EndHorizontal ();
-
+		if (GUILayout.Button ("Quit"))
+		{
+			Application.Quit();
+		}
 	}
 }

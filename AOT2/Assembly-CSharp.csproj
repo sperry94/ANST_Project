@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CircleScript.cs" />
+     <Compile Include="Assets\Scripts\GOManagerScript.cs" />
+     <Compile Include="Assets\Scripts\ManagerScrip.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\shooterScript.cs" />
      <Compile Include="Assets\Scripts\spawnerScript.cs" />

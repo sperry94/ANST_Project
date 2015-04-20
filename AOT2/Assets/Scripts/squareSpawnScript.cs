@@ -29,4 +29,12 @@ public class squareSpawnScript : MonoBehaviour
 		}
 	}
 
+	public void OnTriggerEnter2D(Collider2D obj)
+	{
+		if(obj.gameObject.name == "Triangle(Clone)")
+		{
+			Application.LoadLevel(2);
+		}
+	}
+
 }

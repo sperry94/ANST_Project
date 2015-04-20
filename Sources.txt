@@ -2,3 +2,8 @@ http://unity3d.com/learn/tutorials/modules
 http://blog.lessmilk.com/unity-spaceshooter-2/
 http://www.tallior.com/introduction-to-unity-test-tools/
 http://answers.unity3d.com/questions/639139/how-to-move-an-2d-object-to-mouse-click-position-i.html
+http://answers.unity3d.com/questions/836635/can-ui-buttons-load-scenes.html
+https://www.youtube.com/watch?v=rNghvoEbEkM
+http://docs.unity3d.com
+http://answers.unity3d.com/questions/872864/how-do-you-reference-a-text-on-a-canvas-unity-46-g.html
+http://blog.christianhenschel.com/2013/05/16/how-to-pass-data-between-scenes-static-variables/

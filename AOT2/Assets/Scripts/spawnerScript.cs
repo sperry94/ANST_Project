@@ -6,16 +6,16 @@ public class spawnerScript : MonoBehaviour
 
 	public float spawnt = 1;
 	public GameObject Triangle;
-	public GUIText scoreText;
+	//public GUIText scoreText;
 
-	public int score;
+	//public int score;
 
 
 	void Start () 
 	{
 		InvokeRepeating ("newTriangle", spawnt, spawnt);
-		score = 0;
-		scoreText.text = "Score: 0";
+		//score = 0;
+		//scoreText.text = "Score: 0";
 	}
 
 	void newTriangle()
@@ -27,7 +27,7 @@ public class spawnerScript : MonoBehaviour
 
 	}
 
-	public void AddScore(int x)
+	/*public void AddScore(int x)
 	{
 		score += x;
 	}
@@ -37,5 +37,5 @@ public class spawnerScript : MonoBehaviour
 		float totScore = score + Time.time;
 		int totScoreInt = (int)totScore;
 		scoreText.text = "Score: " + totScoreInt; 
-	}
+	}*/
 }
