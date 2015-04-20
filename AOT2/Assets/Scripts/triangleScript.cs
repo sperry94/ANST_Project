@@ -8,8 +8,13 @@ public class triangleScript : MonoBehaviour
 
 	void Start () 
 	{
-
-		speed.y = -5;
+		if (DifficultyScript.difficulty == 1) {
+			speed.y = -3;
+		} else if (DifficultyScript.difficulty == 3) {
+			speed.y = -8;
+		} else {
+			speed.y = -5;
+		}
 
 		GetComponent<Rigidbody2D> ().velocity = speed;
 

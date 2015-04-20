@@ -9,13 +9,12 @@ public class squareSpawnScript : MonoBehaviour
 
 	void Start () 
 	{
-		if (numsquares > 8) 
-		{
+		if (DifficultyScript.difficulty == 1) {
 			numsquares = 8;
-		}
-		else if (numsquares <= 0)
-		{
-			numsquares = 1;
+		} else if (DifficultyScript.difficulty == 3) {
+			numsquares = 3;
+		} else {
+			numsquares = 5;
 		}
 		float mid = transform.position.y;
 		float left = transform.position.x;

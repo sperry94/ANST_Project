@@ -6,16 +6,11 @@ public class spawnerScript : MonoBehaviour
 
 	public float spawnt = 1;
 	public GameObject Triangle;
-	//public GUIText scoreText;
-
-	//public int score;
 
 
 	void Start () 
 	{
 		InvokeRepeating ("newTriangle", spawnt, spawnt);
-		//score = 0;
-		//scoreText.text = "Score: 0";
 	}
 
 	void newTriangle()
@@ -26,16 +21,4 @@ public class spawnerScript : MonoBehaviour
 		Instantiate (Triangle, spawnp, Quaternion.identity);
 
 	}
-
-	/*public void AddScore(int x)
-	{
-		score += x;
-	}
-
-	void Update () 
-	{
-		float totScore = score + Time.time;
-		int totScoreInt = (int)totScore;
-		scoreText.text = "Score: " + totScoreInt; 
-	}*/
 }
