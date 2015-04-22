@@ -51,7 +51,7 @@ public class PauseMenu : MonoBehaviour
 			paused = false;
 		}
 		GUILayout.BeginHorizontal ();
-		if (GUILayout.Button ("Options"))
+		if (GUILayout.Button ("Disable Sound"))
 		{
 
 		}
