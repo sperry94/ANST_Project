@@ -49,7 +49,7 @@
      <Compile Include="Assets\Scripts\CircleScript.cs" />
      <Compile Include="Assets\Scripts\DifficultyScript.cs" />
      <Compile Include="Assets\Scripts\GOManagerScript.cs" />
-     <Compile Include="Assets\Scripts\ManagerScrip.cs" />
+     <Compile Include="Assets\Scripts\ManagerScript.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\handScript.cs" />
      <Compile Include="Assets\Scripts\shooterScript.cs" />

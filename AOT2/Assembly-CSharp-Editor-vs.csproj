@@ -121,7 +121,7 @@
      <None Include="Assets\UnityTestTools\Examples\IntegrationTestsFrameworkExamples\AngryBotsTests\Shaders\Fx\ParticleBlend.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>/Users/tycook1/Documents/Spring 2015/CSCI 3308/Unity Projects/ANST_Project/AOT2/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>/Users/sethperry/ANST_Project/AOT2/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -130,22 +130,22 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="NSubstitute">
- <HintPath>/Users/tycook1/Documents/Spring 2015/CSCI 3308/Unity Projects/ANST_Project/AOT2/Assets/UnityTestTools/UnitTesting/Editor/NSubstitute/NSubstitute.dll</HintPath>
+ <HintPath>/Users/sethperry/ANST_Project/AOT2/Assets/UnityTestTools/UnitTesting/Editor/NSubstitute/NSubstitute.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
- <HintPath>/Users/tycook1/Documents/Spring 2015/CSCI 3308/Unity Projects/ANST_Project/AOT2/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/Mono.Cecil.dll</HintPath>
+ <HintPath>/Users/sethperry/ANST_Project/AOT2/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/Mono.Cecil.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil.Mdb">
- <HintPath>/Users/tycook1/Documents/Spring 2015/CSCI 3308/Unity Projects/ANST_Project/AOT2/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/Mono.Cecil.Mdb.dll</HintPath>
+ <HintPath>/Users/sethperry/ANST_Project/AOT2/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/Mono.Cecil.Mdb.dll</HintPath>
  </Reference>
  <Reference Include="nunit.core">
- <HintPath>/Users/tycook1/Documents/Spring 2015/CSCI 3308/Unity Projects/ANST_Project/AOT2/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/nunit.core.dll</HintPath>
+ <HintPath>/Users/sethperry/ANST_Project/AOT2/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/nunit.core.dll</HintPath>
  </Reference>
  <Reference Include="nunit.core.interfaces">
- <HintPath>/Users/tycook1/Documents/Spring 2015/CSCI 3308/Unity Projects/ANST_Project/AOT2/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/nunit.core.interfaces.dll</HintPath>
+ <HintPath>/Users/sethperry/ANST_Project/AOT2/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/nunit.core.interfaces.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Users/tycook1/Documents/Spring 2015/CSCI 3308/Unity Projects/ANST_Project/AOT2/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/nunit.framework.dll</HintPath>
+ <HintPath>/Users/sethperry/ANST_Project/AOT2/Assets/UnityTestTools/UnitTesting/Editor/NUnit/Libs/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>

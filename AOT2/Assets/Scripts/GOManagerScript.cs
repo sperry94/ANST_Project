@@ -7,6 +7,6 @@ public class GOManagerScript : MonoBehaviour {
 	
 	void Start()
 	{
-		scoreText.text = "Score: " + ManagerScrip.totScoreInt;
+		scoreText.text = "Score: " + ManagerScript.totScoreInt;
 	}
 }

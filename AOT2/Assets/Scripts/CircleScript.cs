@@ -5,17 +5,17 @@ public class CircleScript : MonoBehaviour
 {
 
 	public Vector2 speed = new Vector2(-20,0);
-	public ManagerScrip managerScrip;
+	public ManagerScript managerScript;
 	
 	void Start () 
 	{
 		GetComponent<Rigidbody2D> ().velocity = speed;
 
-		GameObject managerScripObject = GameObject.FindWithTag ("ManagerScrip");
+		GameObject managerScriptObject = GameObject.FindWithTag ("ManagerScript");
 
-		if (managerScripObject != null) 
+		if (managerScriptObject != null) 
 		{
-			managerScrip = managerScripObject.GetComponent <ManagerScrip>();
+			managerScript = managerScriptObject.GetComponent <ManagerScript>();
 		}
 	}
 
@@ -25,7 +25,7 @@ public class CircleScript : MonoBehaviour
 		{
 			Destroy (obj.gameObject);
 			Destroy(gameObject);
-			managerScrip.AddScore(5);
+			managerScript.AddScore(5);
 		}
 	}
 
