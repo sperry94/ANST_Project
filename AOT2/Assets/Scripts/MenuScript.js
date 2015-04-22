@@ -7,3 +7,8 @@ function Quitter()
 {
 	Application.Quit();
 }
+
+function mainMenu()
+{
+		Application.LoadLevel (0);
+}

@@ -10,7 +10,6 @@ public class ManagerScrip : MonoBehaviour {
 	public static int totScoreInt;
 
 	void Start () {
-
 		score = 0;
 		totScoreInt = 0;
 		scoreText.text = "Score: 0";

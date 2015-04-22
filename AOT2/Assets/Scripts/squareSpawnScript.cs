@@ -6,6 +6,8 @@ public class squareSpawnScript : MonoBehaviour
 
 	public GameObject squares;
 	public int numsquares;
+	public Camera RH;
+	public Camera LH;
 
 	void Start () 
 	{
@@ -15,6 +17,13 @@ public class squareSpawnScript : MonoBehaviour
 			numsquares = 3;
 		} else {
 			numsquares = 5;
+		}
+		if (handScript.hand == 1) {
+			LH.enabled = true;
+			RH.enabled = false;
+		} else {
+			LH.enabled = false;
+			RH.enabled = true;
 		}
 		float mid = transform.position.y;
 		float left = transform.position.x;

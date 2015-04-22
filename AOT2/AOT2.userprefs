@@ -1,17 +1,20 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/triangleScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/squareSpawnScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/MenuScript.js" Line="9" Column="2" />
+      <File FileName="Assets/Scripts/MenuScript.js" Line="14" Column="1" />
       <File FileName="Assets/Scripts/CircleScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/shooterScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/spawnerScript.cs" Line="13" Column="51" />
+      <File FileName="Assets/Scripts/spawnerScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/squareScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/squareSpawnScript.cs" Line="18" Column="4" />
-      <File FileName="Assets/Scripts/triangleScript.cs" Line="12" Column="1" />
-      <File FileName="Assets/Scripts/ManagerScrip.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GOManagerScript.cs" Line="5" Column="24" />
-      <File FileName="Assets/Scripts/PauseMenu.cs" Line="60" Column="29" />
+      <File FileName="Assets/Scripts/squareSpawnScript.cs" Line="22" Column="22" />
+      <File FileName="Assets/Scripts/triangleScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ManagerScrip.cs" Line="12" Column="17" />
+      <File FileName="Assets/Scripts/GOManagerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PauseMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/UnityTestTools/Assertions/Editor/AssertionStripper.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DifficultyScript.cs" Line="8" Column="15" />
+      <File FileName="Assets/Scripts/handScript.cs" Line="5" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
