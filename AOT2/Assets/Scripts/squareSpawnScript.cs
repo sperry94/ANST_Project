@@ -25,13 +25,16 @@ public class squareSpawnScript : MonoBehaviour
 	 */
 	public Camera LH;
 
+	public GameObject[] ActiveSquares;
+
 	/**
 	 * Function run upon initiating game.
 	 * Sets number of squares spawned based on difficulty and camera perspective
 	 * based on handedness. Squares are uniformly spawned accross bottom of screen.
 	 */
-	void Start () 
+	void Start() 
 	{
+
 		if (DifficultyScript.difficulty == 1) {
 			numsquares = 8;
 		} else if (DifficultyScript.difficulty == 3) {
@@ -58,6 +61,13 @@ public class squareSpawnScript : MonoBehaviour
 		}
 	}
 
+	void Update()
+	{
+		ActiveSquares = GameObject.FindGameObjectsWithTag ("Square");
+		if (ActiveSquares.Length == 0) {
+			Application.LoadLevel(2);
+		}
+	}
 
 	/**
 	 * Function run when a collision is detected with collider at bottom of screen.

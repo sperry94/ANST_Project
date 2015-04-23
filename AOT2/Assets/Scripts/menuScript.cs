@@ -29,4 +29,9 @@ public class menuScript : MonoBehaviour {
 	{
 		Application.LoadLevel (0);
 	}
+
+	public void PlayAgain()
+	{
+		Application.LoadLevel (1);
+	}
 }

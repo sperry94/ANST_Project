@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System;
+using System.IO;
 
 /**
  * This script is used to manage the score in the game over screen.
@@ -17,6 +19,10 @@ public class GOManagerScript : MonoBehaviour {
 	 */
 	void Start()
 	{
+		using (StreamWriter output = new StreamWriter("ouput.txt")) 
+		{
+			output.Write (ManagerScript.totScoreInt);
+		}
 		scoreText.text = "Score: " + ManagerScript.totScoreInt;
 	}
 }
