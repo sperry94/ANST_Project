@@ -3,7 +3,12 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class DifficultyScript : MonoBehaviour {
-	public static int difficulty;
+	/*! This script allows the user to select varying levels
+	 * of difficulty. Veteran players will be able to test 
+	 * their abilities against enemies that spawn more quickly.
+	 * 
+	 */ 
+	public static int difficulty; //! Difficulty will be adjusted based on a few integers 
 	public Text thisText;
 	public Text otherText1;
 	public Text otherText2;
@@ -13,25 +18,25 @@ public class DifficultyScript : MonoBehaviour {
 		difficulty = 2;
 	}
 
-	public void Easy()
+	public void Easy() //! This method changes difficulty to Easy
 	{
-		difficulty = 1;
+		difficulty = 1; 
 		colorChanges ();
 	}
 
-	public void Medium()
+	public void Medium() //! Changes difficulty to Medium
 	{
 		difficulty = 2;
 		colorChanges ();
 	}
 
-	public void Hard()
+	public void Hard() //! Changes difficulty to Hard
 	{
 		difficulty = 3;
 		colorChanges ();
 	}
 
-	void colorChanges()
+	void colorChanges() //! This method handles any color changes the user wishes to impose.
 	{
 		thisText.color = Color.blue;
 		otherText1.color = Color.white;
