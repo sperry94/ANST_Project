@@ -9,3 +9,4 @@ http://answers.unity3d.com/questions/872864/how-do-you-reference-a-text-on-a-can
 http://blog.christianhenschel.com/2013/05/16/how-to-pass-data-between-scenes-static-variables/
 http://answers.unity3d.com/questions/16146/changing-between-cameras.html
 http://stackoverflow.com/questions/1125968/force-git-to-overwrite-local-files-on-pull
+http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html

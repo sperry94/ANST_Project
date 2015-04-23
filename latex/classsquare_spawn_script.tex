@@ -9,26 +9,66 @@ Inheritance diagram for square\+Spawn\+Script\+:\begin{figure}[H]
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{classsquare_spawn_script_a072454e82d37b10169a363717acfc2be}{}void {\bfseries On\+Trigger\+Enter2\+D} (Collider2\+D obj)\label{classsquare_spawn_script_a072454e82d37b10169a363717acfc2be}
-
+void \hyperlink{classsquare_spawn_script_a072454e82d37b10169a363717acfc2be}{On\+Trigger\+Enter2\+D} (Collider2\+D obj)
 \end{DoxyCompactItemize}
 \subsection*{Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{classsquare_spawn_script_a353637659973cde399b46b194b30eb2e}{}Game\+Object {\bfseries squares}\label{classsquare_spawn_script_a353637659973cde399b46b194b30eb2e}
-
+Game\+Object \hyperlink{classsquare_spawn_script_a353637659973cde399b46b194b30eb2e}{squares}
 \item 
-\hypertarget{classsquare_spawn_script_aee81b01036a29f961a113a21183173e3}{}int {\bfseries numsquares}\label{classsquare_spawn_script_aee81b01036a29f961a113a21183173e3}
-
+int \hyperlink{classsquare_spawn_script_aee81b01036a29f961a113a21183173e3}{numsquares}
 \item 
-\hypertarget{classsquare_spawn_script_acc39770a5d684a4b5e1057b832dc979d}{}Camera {\bfseries R\+H}\label{classsquare_spawn_script_acc39770a5d684a4b5e1057b832dc979d}
-
+Camera \hyperlink{classsquare_spawn_script_acc39770a5d684a4b5e1057b832dc979d}{R\+H}
 \item 
-\hypertarget{classsquare_spawn_script_abf8f64837c29453bfe6231d48b06b483}{}Camera {\bfseries L\+H}\label{classsquare_spawn_script_abf8f64837c29453bfe6231d48b06b483}
-
+Camera \hyperlink{classsquare_spawn_script_abf8f64837c29453bfe6231d48b06b483}{L\+H}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classsquare_spawn_script_adfc7e870640ae864df5da2c89c275c21}{Start} ()
 \end{DoxyCompactItemize}
 
 
+\subsection{Detailed Description}
+Script that handles Square object spawning and Setting Camera. Changes number of squares spawned based off of chosen difficulty and Camera perspective based off of chosen handedness. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classsquare_spawn_script_a072454e82d37b10169a363717acfc2be}{}\index{square\+Spawn\+Script@{square\+Spawn\+Script}!On\+Trigger\+Enter2\+D@{On\+Trigger\+Enter2\+D}}
+\index{On\+Trigger\+Enter2\+D@{On\+Trigger\+Enter2\+D}!square\+Spawn\+Script@{square\+Spawn\+Script}}
+\subsubsection[{On\+Trigger\+Enter2\+D}]{\setlength{\rightskip}{0pt plus 5cm}void square\+Spawn\+Script.\+On\+Trigger\+Enter2\+D (
+\begin{DoxyParamCaption}
+\item[{Collider2\+D}]{obj}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classsquare_spawn_script_a072454e82d37b10169a363717acfc2be}
+Function run when a collision is detected with collider at bottom of screen. If a triangle collides with the collider at the bottom of the screen, the game is ended and the game over screen is loaded. 
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object that collided with the collider at the bottom of the screen. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classsquare_spawn_script_adfc7e870640ae864df5da2c89c275c21}{}\index{square\+Spawn\+Script@{square\+Spawn\+Script}!Start@{Start}}
+\index{Start@{Start}!square\+Spawn\+Script@{square\+Spawn\+Script}}
+\subsubsection[{Start}]{\setlength{\rightskip}{0pt plus 5cm}void square\+Spawn\+Script.\+Start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\label{classsquare_spawn_script_adfc7e870640ae864df5da2c89c275c21}
+Function run upon initiating game. Sets number of squares spawned based on difficulty and camera perspective based on handedness. Squares are uniformly spawned accross bottom of screen. 
+
+\subsection{Member Data Documentation}
+\hypertarget{classsquare_spawn_script_abf8f64837c29453bfe6231d48b06b483}{}\index{square\+Spawn\+Script@{square\+Spawn\+Script}!L\+H@{L\+H}}
+\index{L\+H@{L\+H}!square\+Spawn\+Script@{square\+Spawn\+Script}}
+\subsubsection[{L\+H}]{\setlength{\rightskip}{0pt plus 5cm}Camera square\+Spawn\+Script.\+L\+H}\label{classsquare_spawn_script_abf8f64837c29453bfe6231d48b06b483}
+The camera to be used for the left hand selection \hypertarget{classsquare_spawn_script_aee81b01036a29f961a113a21183173e3}{}\index{square\+Spawn\+Script@{square\+Spawn\+Script}!numsquares@{numsquares}}
+\index{numsquares@{numsquares}!square\+Spawn\+Script@{square\+Spawn\+Script}}
+\subsubsection[{numsquares}]{\setlength{\rightskip}{0pt plus 5cm}int square\+Spawn\+Script.\+numsquares}\label{classsquare_spawn_script_aee81b01036a29f961a113a21183173e3}
+The number of squares to be spawned. \hypertarget{classsquare_spawn_script_acc39770a5d684a4b5e1057b832dc979d}{}\index{square\+Spawn\+Script@{square\+Spawn\+Script}!R\+H@{R\+H}}
+\index{R\+H@{R\+H}!square\+Spawn\+Script@{square\+Spawn\+Script}}
+\subsubsection[{R\+H}]{\setlength{\rightskip}{0pt plus 5cm}Camera square\+Spawn\+Script.\+R\+H}\label{classsquare_spawn_script_acc39770a5d684a4b5e1057b832dc979d}
+The camera to be used for the right hand selection. \hypertarget{classsquare_spawn_script_a353637659973cde399b46b194b30eb2e}{}\index{square\+Spawn\+Script@{square\+Spawn\+Script}!squares@{squares}}
+\index{squares@{squares}!square\+Spawn\+Script@{square\+Spawn\+Script}}
+\subsubsection[{squares}]{\setlength{\rightskip}{0pt plus 5cm}Game\+Object square\+Spawn\+Script.\+squares}\label{classsquare_spawn_script_a353637659973cde399b46b194b30eb2e}
+The prefab for the Square object. 
+
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-A\+O\+T2/\+Assets/\+Scripts/square\+Spawn\+Script.\+cs\end{DoxyCompactItemize}
+A\+O\+T2/\+Assets/\+Scripts/\hyperlink{square_spawn_script_8cs}{square\+Spawn\+Script.\+cs}\end{DoxyCompactItemize}

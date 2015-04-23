@@ -39,6 +39,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -84,6 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classsquare_spawn_script-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">squareSpawnScript Class Reference</div>  </div>
@@ -100,32 +102,142 @@ Inheritance diagram for squareSpawnScript:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a072454e82d37b10169a363717acfc2be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a072454e82d37b10169a363717acfc2be"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnTriggerEnter2D</b> (Collider2D obj)</td></tr>
+<tr class="memitem:a072454e82d37b10169a363717acfc2be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare_spawn_script.html#a072454e82d37b10169a363717acfc2be">OnTriggerEnter2D</a> (Collider2D obj)</td></tr>
 <tr class="separator:a072454e82d37b10169a363717acfc2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a353637659973cde399b46b194b30eb2e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a353637659973cde399b46b194b30eb2e"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>squares</b></td></tr>
+<tr class="memitem:a353637659973cde399b46b194b30eb2e"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare_spawn_script.html#a353637659973cde399b46b194b30eb2e">squares</a></td></tr>
 <tr class="separator:a353637659973cde399b46b194b30eb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee81b01036a29f961a113a21183173e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee81b01036a29f961a113a21183173e3"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>numsquares</b></td></tr>
+<tr class="memitem:aee81b01036a29f961a113a21183173e3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare_spawn_script.html#aee81b01036a29f961a113a21183173e3">numsquares</a></td></tr>
 <tr class="separator:aee81b01036a29f961a113a21183173e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc39770a5d684a4b5e1057b832dc979d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc39770a5d684a4b5e1057b832dc979d"></a>
-Camera&#160;</td><td class="memItemRight" valign="bottom"><b>RH</b></td></tr>
+<tr class="memitem:acc39770a5d684a4b5e1057b832dc979d"><td class="memItemLeft" align="right" valign="top">Camera&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare_spawn_script.html#acc39770a5d684a4b5e1057b832dc979d">RH</a></td></tr>
 <tr class="separator:acc39770a5d684a4b5e1057b832dc979d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf8f64837c29453bfe6231d48b06b483"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf8f64837c29453bfe6231d48b06b483"></a>
-Camera&#160;</td><td class="memItemRight" valign="bottom"><b>LH</b></td></tr>
+<tr class="memitem:abf8f64837c29453bfe6231d48b06b483"><td class="memItemLeft" align="right" valign="top">Camera&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare_spawn_script.html#abf8f64837c29453bfe6231d48b06b483">LH</a></td></tr>
 <tr class="separator:abf8f64837c29453bfe6231d48b06b483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:adfc7e870640ae864df5da2c89c275c21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsquare_spawn_script.html#adfc7e870640ae864df5da2c89c275c21">Start</a> ()</td></tr>
+<tr class="separator:adfc7e870640ae864df5da2c89c275c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Script that handles Square object spawning and Setting Camera. Changes number of squares spawned based off of chosen difficulty and Camera perspective based off of chosen handedness. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a072454e82d37b10169a363717acfc2be"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void squareSpawnScript.OnTriggerEnter2D </td>
+          <td>(</td>
+          <td class="paramtype">Collider2D&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Function run when a collision is detected with collider at bottom of screen. If a triangle collides with the collider at the bottom of the screen, the game is ended and the game over screen is loaded. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">obj</td><td>the object that collided with the collider at the bottom of the screen. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="adfc7e870640ae864df5da2c89c275c21"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void squareSpawnScript.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Function run upon initiating game. Sets number of squares spawned based on difficulty and camera perspective based on handedness. Squares are uniformly spawned accross bottom of screen. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="abf8f64837c29453bfe6231d48b06b483"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera squareSpawnScript.LH</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The camera to be used for the left hand selection </p>
+
+</div>
+</div>
+<a class="anchor" id="aee81b01036a29f961a113a21183173e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int squareSpawnScript.numsquares</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of squares to be spawned. </p>
+
+</div>
+</div>
+<a class="anchor" id="acc39770a5d684a4b5e1057b832dc979d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera squareSpawnScript.RH</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The camera to be used for the right hand selection. </p>
+
+</div>
+</div>
+<a class="anchor" id="a353637659973cde399b46b194b30eb2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject squareSpawnScript.squares</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The prefab for the Square object. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>AOT2/Assets/Scripts/squareSpawnScript.cs</li>
+<li>AOT2/Assets/Scripts/<a class="el" href="square_spawn_script_8cs.html">squareSpawnScript.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 22 2015 16:32:37 for ANST_Project by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Apr 23 2015 08:31:51 for ANST_Project by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

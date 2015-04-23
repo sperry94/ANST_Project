@@ -11,14 +11,89 @@ Inheritance diagram for Pause\+Menu\+:\begin{figure}[H]
 \item 
 G\+U\+I\+Skin \hyperlink{class_pause_menu_af78d9844a86f8ffb0ebf4d711fe0c2ce}{my\+Skin}
 \end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_pause_menu_a5325fe2fbc7a7d39408b6dab0a129c88}{Start} ()
+\item 
+void \hyperlink{class_pause_menu_a54ec674db33aad0505f69ca1433b9f69}{waiting} ()
+\item 
+void \hyperlink{class_pause_menu_ad66a0552c131257182ce524f1c71ce4c}{Update} ()
+\item 
+void \hyperlink{class_pause_menu_a2fbdab78365444f12e592144a336dcc8}{On\+G\+U\+I} ()
+\item 
+void \hyperlink{class_pause_menu_a9e4a263a0bbdfb0e1476ac04d101dfde}{window\+Func} (int id)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Rect \hyperlink{class_pause_menu_a5cbd090dfd1fd8cd9d745d1334dad5cb}{window\+Rect}
+\item 
+bool \hyperlink{class_pause_menu_a5ebc8c7d38ad3c1be68a741fb133e6a2}{paused} = false
+\item 
+bool \hyperlink{class_pause_menu_a73081e2e0173f8cda0bb890d4b84b722}{waited} = true
+\end{DoxyCompactItemize}
 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_pause_menu_a2fbdab78365444f12e592144a336dcc8}{}\index{Pause\+Menu@{Pause\+Menu}!On\+G\+U\+I@{On\+G\+U\+I}}
+\index{On\+G\+U\+I@{On\+G\+U\+I}!Pause\+Menu@{Pause\+Menu}}
+\subsubsection[{On\+G\+U\+I}]{\setlength{\rightskip}{0pt plus 5cm}void Pause\+Menu.\+On\+G\+U\+I (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\label{class_pause_menu_a2fbdab78365444f12e592144a336dcc8}
+If paused create the window to provide a pause interface. \hypertarget{class_pause_menu_a5325fe2fbc7a7d39408b6dab0a129c88}{}\index{Pause\+Menu@{Pause\+Menu}!Start@{Start}}
+\index{Start@{Start}!Pause\+Menu@{Pause\+Menu}}
+\subsubsection[{Start}]{\setlength{\rightskip}{0pt plus 5cm}void Pause\+Menu.\+Start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\label{class_pause_menu_a5325fe2fbc7a7d39408b6dab0a129c88}
+\hypertarget{class_pause_menu_ad66a0552c131257182ce524f1c71ce4c}{}\index{Pause\+Menu@{Pause\+Menu}!Update@{Update}}
+\index{Update@{Update}!Pause\+Menu@{Pause\+Menu}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void Pause\+Menu.\+Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\label{class_pause_menu_ad66a0552c131257182ce524f1c71ce4c}
+If user hits escape or P, modify the boolean to show that the game is paused.
+
+If user pauses, stop the time. \hypertarget{class_pause_menu_a54ec674db33aad0505f69ca1433b9f69}{}\index{Pause\+Menu@{Pause\+Menu}!waiting@{waiting}}
+\index{waiting@{waiting}!Pause\+Menu@{Pause\+Menu}}
+\subsubsection[{waiting}]{\setlength{\rightskip}{0pt plus 5cm}void Pause\+Menu.\+waiting (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\label{class_pause_menu_a54ec674db33aad0505f69ca1433b9f69}
+\hypertarget{class_pause_menu_a9e4a263a0bbdfb0e1476ac04d101dfde}{}\index{Pause\+Menu@{Pause\+Menu}!window\+Func@{window\+Func}}
+\index{window\+Func@{window\+Func}!Pause\+Menu@{Pause\+Menu}}
+\subsubsection[{window\+Func}]{\setlength{\rightskip}{0pt plus 5cm}void Pause\+Menu.\+window\+Func (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\label{class_pause_menu_a9e4a263a0bbdfb0e1476ac04d101dfde}
+Resume button. If pushed, the game will no longer be paused.
+
+End game button allows the user to end the game early.
+
+If Quit button is pushed, allow the user to quit the game. 
 
 \subsection{Member Data Documentation}
 \hypertarget{class_pause_menu_af78d9844a86f8ffb0ebf4d711fe0c2ce}{}\index{Pause\+Menu@{Pause\+Menu}!my\+Skin@{my\+Skin}}
 \index{my\+Skin@{my\+Skin}!Pause\+Menu@{Pause\+Menu}}
 \subsubsection[{my\+Skin}]{\setlength{\rightskip}{0pt plus 5cm}G\+U\+I\+Skin Pause\+Menu.\+my\+Skin}\label{class_pause_menu_af78d9844a86f8ffb0ebf4d711fe0c2ce}
-\hyperlink{class_pause_menu}{Pause\+Menu} script allows the Pause Interface to enable the user to access settings that may need to be changed mid-\/game. In addition, the player can pause to take a break during a game. 
+\hyperlink{class_pause_menu}{Pause\+Menu} script allows the Pause Interface to enable the user to access settings that may need to be changed mid-\/game. In addition, the player can pause to take a break during a game. \hypertarget{class_pause_menu_a5ebc8c7d38ad3c1be68a741fb133e6a2}{}\index{Pause\+Menu@{Pause\+Menu}!paused@{paused}}
+\index{paused@{paused}!Pause\+Menu@{Pause\+Menu}}
+\subsubsection[{paused}]{\setlength{\rightskip}{0pt plus 5cm}bool Pause\+Menu.\+paused = false\hspace{0.3cm}{\ttfamily [private]}}\label{class_pause_menu_a5ebc8c7d38ad3c1be68a741fb133e6a2}
+\hypertarget{class_pause_menu_a73081e2e0173f8cda0bb890d4b84b722}{}\index{Pause\+Menu@{Pause\+Menu}!waited@{waited}}
+\index{waited@{waited}!Pause\+Menu@{Pause\+Menu}}
+\subsubsection[{waited}]{\setlength{\rightskip}{0pt plus 5cm}bool Pause\+Menu.\+waited = true\hspace{0.3cm}{\ttfamily [private]}}\label{class_pause_menu_a73081e2e0173f8cda0bb890d4b84b722}
+\hypertarget{class_pause_menu_a5cbd090dfd1fd8cd9d745d1334dad5cb}{}\index{Pause\+Menu@{Pause\+Menu}!window\+Rect@{window\+Rect}}
+\index{window\+Rect@{window\+Rect}!Pause\+Menu@{Pause\+Menu}}
+\subsubsection[{window\+Rect}]{\setlength{\rightskip}{0pt plus 5cm}Rect Pause\+Menu.\+window\+Rect\hspace{0.3cm}{\ttfamily [private]}}\label{class_pause_menu_a5cbd090dfd1fd8cd9d745d1334dad5cb}
+
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-A\+O\+T2/\+Assets/\+Scripts/Pause\+Menu.\+cs\end{DoxyCompactItemize}
+A\+O\+T2/\+Assets/\+Scripts/\hyperlink{_pause_menu_8cs}{Pause\+Menu.\+cs}\end{DoxyCompactItemize}

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['managerscrip',['ManagerScrip',['../class_manager_scrip.html',1,'']]],
-  ['myskin',['mySkin',['../class_pause_menu.html#af78d9844a86f8ffb0ebf4d711fe0c2ce',1,'PauseMenu']]]
+  ['gomanagerscript',['GOManagerScript',['../class_g_o_manager_script.html',1,'']]],
+  ['gomanagerscript_2ecs',['GOManagerScript.cs',['../_g_o_manager_script_8cs.html',1,'']]]
 ];
