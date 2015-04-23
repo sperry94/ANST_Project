@@ -1,0 +1,265 @@
+\begin{theindex}
+
+  \item {A\discretionary {-}{}{}O\discretionary {-}{}{}T2/\discretionary {-}{}{}Assets/\discretionary {-}{}{}Scripts/\discretionary {-}{}{}Circle\discretionary {-}{}{}Script.\discretionary {-}{}{}cs}, 
+		\hyperpage{23}
+  \item {A\discretionary {-}{}{}O\discretionary {-}{}{}T2/\discretionary {-}{}{}Assets/\discretionary {-}{}{}Scripts/\discretionary {-}{}{}Difficulty\discretionary {-}{}{}Script.\discretionary {-}{}{}cs}, 
+		\hyperpage{23}
+  \item {A\discretionary {-}{}{}O\discretionary {-}{}{}T2/\discretionary {-}{}{}Assets/\discretionary {-}{}{}Scripts/\discretionary {-}{}{}G\discretionary {-}{}{}O\discretionary {-}{}{}Manager\discretionary {-}{}{}Script.\discretionary {-}{}{}cs}, 
+		\hyperpage{23}
+  \item {A\discretionary {-}{}{}O\discretionary {-}{}{}T2/\discretionary {-}{}{}Assets/\discretionary {-}{}{}Scripts/\discretionary {-}{}{}Manager\discretionary {-}{}{}Script.\discretionary {-}{}{}cs}, 
+		\hyperpage{23}
+  \item {A\discretionary {-}{}{}O\discretionary {-}{}{}T2/\discretionary {-}{}{}Assets/\discretionary {-}{}{}Scripts/\discretionary {-}{}{}Pause\discretionary {-}{}{}Menu.\discretionary {-}{}{}cs}, 
+		\hyperpage{24}
+  \item {A\discretionary {-}{}{}O\discretionary {-}{}{}T2/\discretionary {-}{}{}Assets/\discretionary {-}{}{}Scripts/hand\discretionary {-}{}{}Script.\discretionary {-}{}{}cs}, 
+		\hyperpage{23}
+  \item {A\discretionary {-}{}{}O\discretionary {-}{}{}T2/\discretionary {-}{}{}Assets/\discretionary {-}{}{}Scripts/menu\discretionary {-}{}{}Script.\discretionary {-}{}{}cs}, 
+		\hyperpage{23}
+  \item {A\discretionary {-}{}{}O\discretionary {-}{}{}T2/\discretionary {-}{}{}Assets/\discretionary {-}{}{}Scripts/shooter\discretionary {-}{}{}Script.\discretionary {-}{}{}cs}, 
+		\hyperpage{24}
+  \item {A\discretionary {-}{}{}O\discretionary {-}{}{}T2/\discretionary {-}{}{}Assets/\discretionary {-}{}{}Scripts/spawner\discretionary {-}{}{}Script.\discretionary {-}{}{}cs}, 
+		\hyperpage{24}
+  \item {A\discretionary {-}{}{}O\discretionary {-}{}{}T2/\discretionary {-}{}{}Assets/\discretionary {-}{}{}Scripts/square\discretionary {-}{}{}Script.\discretionary {-}{}{}cs}, 
+		\hyperpage{24}
+  \item {A\discretionary {-}{}{}O\discretionary {-}{}{}T2/\discretionary {-}{}{}Assets/\discretionary {-}{}{}Scripts/square\discretionary {-}{}{}Spawn\discretionary {-}{}{}Script.\discretionary {-}{}{}cs}, 
+		\hyperpage{24}
+  \item {A\discretionary {-}{}{}O\discretionary {-}{}{}T2/\discretionary {-}{}{}Assets/\discretionary {-}{}{}Scripts/triangle\discretionary {-}{}{}Script.\discretionary {-}{}{}cs}, 
+		\hyperpage{24}
+  \item {Add\discretionary {-}{}{}Score}
+    \subitem {Manager\discretionary {-}{}{}Script}, \hyperpage{12}
+
+  \indexspace
+
+  \item {Circle}
+    \subitem {shooter\discretionary {-}{}{}Script}, \hyperpage{16}
+  \item {Circle\discretionary {-}{}{}Script}, \hyperpage{7}
+    \subitem {manager\discretionary {-}{}{}Script}, \hyperpage{8}
+    \subitem {On\discretionary {-}{}{}Became\discretionary {-}{}{}Invisible}, 
+		\hyperpage{7}
+    \subitem {On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter2\discretionary {-}{}{}D}, 
+		\hyperpage{7}
+    \subitem {speed}, \hyperpage{8}
+    \subitem {Start}, \hyperpage{7}
+  \item {color\discretionary {-}{}{}Changes}
+    \subitem {Difficulty\discretionary {-}{}{}Script}, \hyperpage{9}
+    \subitem {hand\discretionary {-}{}{}Script}, \hyperpage{11}
+
+  \indexspace
+
+  \item {difficulty}
+    \subitem {Difficulty\discretionary {-}{}{}Script}, \hyperpage{9}
+  \item {Difficulty\discretionary {-}{}{}Script}, \hyperpage{8}
+    \subitem {color\discretionary {-}{}{}Changes}, \hyperpage{9}
+    \subitem {difficulty}, \hyperpage{9}
+    \subitem {Easy}, \hyperpage{9}
+    \subitem {Hard}, \hyperpage{9}
+    \subitem {Medium}, \hyperpage{9}
+    \subitem {other\discretionary {-}{}{}Text1}, \hyperpage{9}
+    \subitem {other\discretionary {-}{}{}Text2}, \hyperpage{9}
+    \subitem {Start}, \hyperpage{9}
+    \subitem {this\discretionary {-}{}{}Text}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Easy}
+    \subitem {Difficulty\discretionary {-}{}{}Script}, \hyperpage{9}
+
+  \indexspace
+
+  \item {G\discretionary {-}{}{}O\discretionary {-}{}{}Manager\discretionary {-}{}{}Script}, 
+		\hyperpage{9}
+    \subitem {score\discretionary {-}{}{}Text}, \hyperpage{10}
+    \subitem {Start}, \hyperpage{10}
+
+  \indexspace
+
+  \item {hand}
+    \subitem {hand\discretionary {-}{}{}Script}, \hyperpage{11}
+  \item {hand\discretionary {-}{}{}Script}, \hyperpage{10}
+    \subitem {color\discretionary {-}{}{}Changes}, \hyperpage{11}
+    \subitem {hand}, \hyperpage{11}
+    \subitem {L\discretionary {-}{}{}H}, \hyperpage{11}
+    \subitem {other\discretionary {-}{}{}Text}, \hyperpage{11}
+    \subitem {R\discretionary {-}{}{}H}, \hyperpage{11}
+    \subitem {Start}, \hyperpage{11}
+    \subitem {this\discretionary {-}{}{}Text}, \hyperpage{11}
+  \item {Hard}
+    \subitem {Difficulty\discretionary {-}{}{}Script}, \hyperpage{9}
+
+  \indexspace
+
+  \item {L\discretionary {-}{}{}H}
+    \subitem {hand\discretionary {-}{}{}Script}, \hyperpage{11}
+    \subitem {square\discretionary {-}{}{}Spawn\discretionary {-}{}{}Script}, 
+		\hyperpage{20}
+  \item {last\discretionary {-}{}{}Shot}
+    \subitem {shooter\discretionary {-}{}{}Script}, \hyperpage{16}
+  \item {Loader}
+    \subitem {menu\discretionary {-}{}{}Script}, \hyperpage{14}
+
+  \indexspace
+
+  \item {main\discretionary {-}{}{}Menu}
+    \subitem {menu\discretionary {-}{}{}Script}, \hyperpage{14}
+  \item {Manager\discretionary {-}{}{}Script}, \hyperpage{12}
+    \subitem {Add\discretionary {-}{}{}Score}, \hyperpage{12}
+    \subitem {score}, \hyperpage{13}
+    \subitem {score\discretionary {-}{}{}Text}, \hyperpage{13}
+    \subitem {Start}, \hyperpage{13}
+    \subitem {tot\discretionary {-}{}{}Score\discretionary {-}{}{}Int}, 
+		\hyperpage{13}
+    \subitem {Update}, \hyperpage{13}
+  \item {manager\discretionary {-}{}{}Script}
+    \subitem {Circle\discretionary {-}{}{}Script}, \hyperpage{8}
+  \item {Medium}
+    \subitem {Difficulty\discretionary {-}{}{}Script}, \hyperpage{9}
+  \item {menu\discretionary {-}{}{}Script}, \hyperpage{13}
+    \subitem {Loader}, \hyperpage{14}
+    \subitem {main\discretionary {-}{}{}Menu}, \hyperpage{14}
+    \subitem {Quitter}, \hyperpage{14}
+  \item {my\discretionary {-}{}{}Skin}
+    \subitem {Pause\discretionary {-}{}{}Menu}, \hyperpage{15}
+
+  \indexspace
+
+  \item {new\discretionary {-}{}{}Triangle}
+    \subitem {spawner\discretionary {-}{}{}Script}, \hyperpage{17}
+  \item {numsquares}
+    \subitem {square\discretionary {-}{}{}Spawn\discretionary {-}{}{}Script}, 
+		\hyperpage{20}
+
+  \indexspace
+
+  \item {On\discretionary {-}{}{}Became\discretionary {-}{}{}Invisible}
+    \subitem {Circle\discretionary {-}{}{}Script}, \hyperpage{7}
+    \subitem {triangle\discretionary {-}{}{}Script}, \hyperpage{21}
+  \item {On\discretionary {-}{}{}G\discretionary {-}{}{}U\discretionary {-}{}{}I}
+    \subitem {Pause\discretionary {-}{}{}Menu}, \hyperpage{14}
+  \item {On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter2\discretionary {-}{}{}D}
+    \subitem {Circle\discretionary {-}{}{}Script}, \hyperpage{7}
+    \subitem {square\discretionary {-}{}{}Script}, \hyperpage{18}
+    \subitem {square\discretionary {-}{}{}Spawn\discretionary {-}{}{}Script}, 
+		\hyperpage{19}
+  \item {other\discretionary {-}{}{}Text}
+    \subitem {hand\discretionary {-}{}{}Script}, \hyperpage{11}
+  \item {other\discretionary {-}{}{}Text1}
+    \subitem {Difficulty\discretionary {-}{}{}Script}, \hyperpage{9}
+  \item {other\discretionary {-}{}{}Text2}
+    \subitem {Difficulty\discretionary {-}{}{}Script}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Pause\discretionary {-}{}{}Menu}, \hyperpage{14}
+    \subitem {my\discretionary {-}{}{}Skin}, \hyperpage{15}
+    \subitem {On\discretionary {-}{}{}G\discretionary {-}{}{}U\discretionary {-}{}{}I}, 
+		\hyperpage{14}
+    \subitem {paused}, \hyperpage{15}
+    \subitem {Start}, \hyperpage{14}
+    \subitem {Update}, \hyperpage{15}
+    \subitem {waited}, \hyperpage{15}
+    \subitem {waiting}, \hyperpage{15}
+    \subitem {window\discretionary {-}{}{}Func}, \hyperpage{15}
+    \subitem {window\discretionary {-}{}{}Rect}, \hyperpage{15}
+  \item {paused}
+    \subitem {Pause\discretionary {-}{}{}Menu}, \hyperpage{15}
+
+  \indexspace
+
+  \item {Quitter}
+    \subitem {menu\discretionary {-}{}{}Script}, \hyperpage{14}
+
+  \indexspace
+
+  \item {R\discretionary {-}{}{}H}
+    \subitem {hand\discretionary {-}{}{}Script}, \hyperpage{11}
+    \subitem {square\discretionary {-}{}{}Spawn\discretionary {-}{}{}Script}, 
+		\hyperpage{20}
+
+  \indexspace
+
+  \item {score}
+    \subitem {Manager\discretionary {-}{}{}Script}, \hyperpage{13}
+  \item {score\discretionary {-}{}{}Text}
+    \subitem {G\discretionary {-}{}{}O\discretionary {-}{}{}Manager\discretionary {-}{}{}Script}, 
+		\hyperpage{10}
+    \subitem {Manager\discretionary {-}{}{}Script}, \hyperpage{13}
+  \item {shoot\discretionary {-}{}{}Lim}
+    \subitem {shooter\discretionary {-}{}{}Script}, \hyperpage{16}
+  \item {shooter\discretionary {-}{}{}Script}, \hyperpage{15}
+    \subitem {Circle}, \hyperpage{16}
+    \subitem {last\discretionary {-}{}{}Shot}, \hyperpage{16}
+    \subitem {shoot\discretionary {-}{}{}Lim}, \hyperpage{16}
+    \subitem {Start}, \hyperpage{16}
+    \subitem {Update}, \hyperpage{16}
+  \item {spawner\discretionary {-}{}{}Script}, \hyperpage{16}
+    \subitem {new\discretionary {-}{}{}Triangle}, \hyperpage{17}
+    \subitem {spawnt}, \hyperpage{17}
+    \subitem {Start}, \hyperpage{17}
+    \subitem {Triangle}, \hyperpage{17}
+  \item {spawnt}
+    \subitem {spawner\discretionary {-}{}{}Script}, \hyperpage{17}
+  \item {speed}
+    \subitem {Circle\discretionary {-}{}{}Script}, \hyperpage{8}
+    \subitem {triangle\discretionary {-}{}{}Script}, \hyperpage{21}
+  \item {square\discretionary {-}{}{}Script}, \hyperpage{17}
+    \subitem {On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter2\discretionary {-}{}{}D}, 
+		\hyperpage{18}
+  \item {square\discretionary {-}{}{}Spawn\discretionary {-}{}{}Script}, 
+		\hyperpage{18}
+    \subitem {L\discretionary {-}{}{}H}, \hyperpage{20}
+    \subitem {numsquares}, \hyperpage{20}
+    \subitem {On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter2\discretionary {-}{}{}D}, 
+		\hyperpage{19}
+    \subitem {R\discretionary {-}{}{}H}, \hyperpage{20}
+    \subitem {squares}, \hyperpage{20}
+    \subitem {Start}, \hyperpage{20}
+  \item {squares}
+    \subitem {square\discretionary {-}{}{}Spawn\discretionary {-}{}{}Script}, 
+		\hyperpage{20}
+  \item {Start}
+    \subitem {Circle\discretionary {-}{}{}Script}, \hyperpage{7}
+    \subitem {Difficulty\discretionary {-}{}{}Script}, \hyperpage{9}
+    \subitem {G\discretionary {-}{}{}O\discretionary {-}{}{}Manager\discretionary {-}{}{}Script}, 
+		\hyperpage{10}
+    \subitem {hand\discretionary {-}{}{}Script}, \hyperpage{11}
+    \subitem {Manager\discretionary {-}{}{}Script}, \hyperpage{13}
+    \subitem {Pause\discretionary {-}{}{}Menu}, \hyperpage{14}
+    \subitem {shooter\discretionary {-}{}{}Script}, \hyperpage{16}
+    \subitem {spawner\discretionary {-}{}{}Script}, \hyperpage{17}
+    \subitem {square\discretionary {-}{}{}Spawn\discretionary {-}{}{}Script}, 
+		\hyperpage{20}
+    \subitem {triangle\discretionary {-}{}{}Script}, \hyperpage{21}
+
+  \indexspace
+
+  \item {this\discretionary {-}{}{}Text}
+    \subitem {Difficulty\discretionary {-}{}{}Script}, \hyperpage{9}
+    \subitem {hand\discretionary {-}{}{}Script}, \hyperpage{11}
+  \item {tot\discretionary {-}{}{}Score\discretionary {-}{}{}Int}
+    \subitem {Manager\discretionary {-}{}{}Script}, \hyperpage{13}
+  \item {Triangle}
+    \subitem {spawner\discretionary {-}{}{}Script}, \hyperpage{17}
+  \item {triangle\discretionary {-}{}{}Script}, \hyperpage{20}
+    \subitem {On\discretionary {-}{}{}Became\discretionary {-}{}{}Invisible}, 
+		\hyperpage{21}
+    \subitem {speed}, \hyperpage{21}
+    \subitem {Start}, \hyperpage{21}
+
+  \indexspace
+
+  \item {Update}
+    \subitem {Manager\discretionary {-}{}{}Script}, \hyperpage{13}
+    \subitem {Pause\discretionary {-}{}{}Menu}, \hyperpage{15}
+    \subitem {shooter\discretionary {-}{}{}Script}, \hyperpage{16}
+
+  \indexspace
+
+  \item {waited}
+    \subitem {Pause\discretionary {-}{}{}Menu}, \hyperpage{15}
+  \item {waiting}
+    \subitem {Pause\discretionary {-}{}{}Menu}, \hyperpage{15}
+  \item {window\discretionary {-}{}{}Func}
+    \subitem {Pause\discretionary {-}{}{}Menu}, \hyperpage{15}
+  \item {window\discretionary {-}{}{}Rect}
+    \subitem {Pause\discretionary {-}{}{}Menu}, \hyperpage{15}
+
+\end{theindex}
