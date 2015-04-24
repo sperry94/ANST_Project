@@ -12,3 +12,6 @@ http://stackoverflow.com/questions/1125968/force-git-to-overwrite-local-files-on
 http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html
 https://msdn.microsoft.com/en-us/library/aa735748(VS.71).aspx
 http://answers.unity3d.com/questions/35825/count-the-number-of-objects-with-a-certain-tag.html
+http://coolestguidesontheplanet.com/installing-phpmyadmin-on-mac-osx-10-7-lion/
+http://coolestguidesontheplanet.com/install-configure-apache-mysql-php-phpmyadmin-osx-10-8-mountain-lion/
+http://www.cyberciti.biz/faq/apache-403-forbidden-error-and-solution/
