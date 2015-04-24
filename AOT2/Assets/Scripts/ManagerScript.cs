@@ -48,7 +48,7 @@ public class ManagerScript : MonoBehaviour {
 	void Update () 
 	{
 		float totScore = score + Time.timeSinceLevelLoad;
-		totScoreInt = (int)totScore;
+		totScoreInt = DifficultyScript.difficulty*(int)totScore;
 		scoreText.text = "Score: " + totScoreInt; 
 	}
 }
