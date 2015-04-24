@@ -1,18 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/menuScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\spawnerScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/ManagerScript.cs" Line="5" Column="69" />
-      <File FileName="Assets/Scripts/squareSpawnScript.cs" Line="36" Column="3" />
-      <File FileName="Assets/Scripts/CircleScript.cs" Line="24" Column="15" />
-      <File FileName="Assets/Scripts/menuScript.cs" Line="35" Column="27" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\shooterScript.cs">
-    <Files>
-      <File FileName="Assets\Scripts\CircleScript.cs" Line="8" Column="37" />
-      <File FileName="Assets\Scripts\shooterScript.cs" Line="23" Column="38" />
->>>>>>> 86d77f8ad3984f1e508c6a61f4d2f485f1b73b40
+      <File FileName="Assets\Scripts\spawnerScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
