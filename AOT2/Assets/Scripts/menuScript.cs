@@ -1,10 +1,15 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 /**
  * This script handles menu behaviors.
  */
 public class menuScript : MonoBehaviour {
+
+	public static string username;
+
+	public Text uname;
 
 	/**
  	 * This function loads the main game.
@@ -33,5 +38,15 @@ public class menuScript : MonoBehaviour {
 	public void PlayAgain()
 	{
 		Application.LoadLevel (1);
+	}
+
+	public void setName()
+	{
+		username = uname.text;
+	}
+
+	public void Credits()
+	{
+		Application.LoadLevel (3);
 	}
 }
