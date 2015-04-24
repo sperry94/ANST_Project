@@ -1,18 +1,18 @@
 ﻿//http://wiki.unity3d.com/index.php?title=Server_Side_Highscores
 
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class HSController : MonoBehaviour
 {
 	private string secretKey = "AOT24LYFE"; // Edit this value and make sure it's the same as the one stored on the server
-	public string addScoreURL = "http://localhost:3000/addscore.php?"; //be sure to add a ? to your url
-	public string highscoreURL = "http://localhost:3000/display.php";
+	public string addScoreURL = "http://localhost/addscore.php?"; //be sure to add a ? to your url
+	public string highscoreURL = "http://localhost/display.php";
 	
 	void Start()
 	{
-		StartCoroutine(GetScores());
-		StartCoroutine(PostScores("test", ManagerScript.totScoreInt));
+		StartCoroutine(PostScores(menuScript.username, ManagerScript.totScoreInt));
 	}
 	
 	// remember to use StartCoroutine when calling this function!
@@ -32,13 +32,14 @@ public class HSController : MonoBehaviour
 		{
 			print("There was an error posting the high score: " + hs_post.error);
 		}
+		StartCoroutine(GetScores());
 	}
 	
 	// Get the scores from the MySQL DB to display in a GUIText.
 	// remember to use StartCoroutine when calling this function!
 	IEnumerator GetScores()
 	{
-		gameObject.GetComponent<GUIText>().text = "Loading Scores";
+		gameObject.GetComponent<Text>().text = "Loading Scores";
 		WWW hs_get = new WWW(highscoreURL);
 		yield return hs_get;
 		
@@ -48,7 +49,7 @@ public class HSController : MonoBehaviour
 		}
 		else
 		{
-			gameObject.GetComponent<GUIText>().text = hs_get.text; // this is a GUIText that will display the scores in game.
+			gameObject.GetComponent<Text>().text = hs_get.text; // this is a Text that will display the scores in game.
 		}
 	}
 
@@ -71,5 +72,5 @@ public class HSController : MonoBehaviour
 		
 		return hashString.PadLeft(32, '0');
 	}
-	
+
 }
