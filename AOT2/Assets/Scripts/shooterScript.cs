@@ -20,7 +20,9 @@ public class shooterScript : MonoBehaviour
 	}
 	
 	void Update () {
-	
+		if ((Time.time - lastShot) >= shootLim) {
+			GetComponent<SpriteRenderer>().color = Color.white;
+		}
 		Vector2 lim = transform.position+GetComponent<Renderer>().bounds.size;
 		Vector2 spawnp = new Vector2();
 		if (Input.GetKeyDown (KeyCode.Mouse0)) //! If user clicks mouse in the bounded area, fire projectiles. 
@@ -35,6 +37,7 @@ public class shooterScript : MonoBehaviour
 			{
 				Instantiate (Circle, spawnp, Quaternion.identity);
 				lastShot = Time.time;
+				GetComponent<SpriteRenderer>().color = Color.red;
 			}
 		}
 

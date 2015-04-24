@@ -38,7 +38,7 @@ public class DifficultyScript : MonoBehaviour {
 
 	void colorChanges() //! This method handles any color changes the user wishes to impose.
 	{
-		thisText.color = Color.blue;
+		thisText.color = Color.yellow;
 		otherText1.color = Color.white;
 		otherText2.color = Color.white;
 	}

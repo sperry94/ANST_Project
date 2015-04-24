@@ -56,7 +56,7 @@ public class handScript : MonoBehaviour {
 	 */
 	void colorChanges()
 	{
-		thisText.color = Color.blue;
+		thisText.color = Color.yellow;
 		otherText.color = Color.white;
 	}
 }
