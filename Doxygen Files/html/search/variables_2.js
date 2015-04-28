@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hand',['hand',['../classhand_script.html#a6ead5b70e39c2831d69fdab64c1226ff',1,'handScript']]]
+  ['difficulty',['difficulty',['../class_difficulty_script.html#a1a931c1e4bc7c3465dc3e6a0bb4ac9d8',1,'DifficultyScript']]]
 ];

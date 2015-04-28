@@ -1,18 +1,33 @@
 <?php
     //http://localhost/phpmyadmin/addscore.php
 
-    // Send variables for the MySQL database class.
-    $database = mysql_connect('localhost', 'root', 'AOT2Rocks') or die('Could not connect: ' . mysql_error());
-    mysql_select_db('aot2highscores') or die('Could not select database');
- 
+
+    //https://devcenter.heroku.com/articles/cleardb#using-cleardb-with-php
+    $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+    $server = $url["host"];
+    $username = $url["user"];
+    $password = $url["pass"];
+    $db = substr($url["path"], 1);
+
+    $conn = new mysqli($server, $username, $password, $db);
+
+    //http://codular.com/php-mysqli
+    if($conn->connect_errno > 0){
+        die('Unable to connect to database [' . $db->connect_error . ']');
+    }
+
     $query = "SELECT * FROM `scores` ORDER by `score` DESC LIMIT 5";
-    $result = mysql_query($query) or die('Query failed: ' . mysql_error());
- 
-    $num_results = mysql_num_rows($result);  
- 
+
+    //http://codular.com/php-mysqli
+    if(!$result = $conn->query($query)){
+    die('There was an error running the query [' . $db->error . ']');
+    }
+
+    $num_results = $result->num_rows;
+
     for($i = 0; $i < $num_results; $i++)
     {
-         $row = mysql_fetch_array($result);
+         $row = $result->fetch_array(MYSQLI_BOTH);
          echo $row['name'] . "\t" . $row['score'] . "\n";
     }
 ?>

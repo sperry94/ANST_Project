@@ -27,6 +27,8 @@ http://php.net/manual/en/reserved.variables.get.php
 http://php.net/manual/en/mysqli.real-escape-string.php
 https://dev.mysql.com/doc/refman/5.0/en/delete.html
 http://docs.unity3d.com/Manual/ReducingFilesize.html
+https://dev.mysql.com/doc/refman/5.0/en/insert.html
+https://dev.mysql.com/doc/refman/5.0/en/delete.html
 
 SERVER CODE SOURCES
 http://wiki.unity3d.com/index.php?title=Server_Side_Highscores

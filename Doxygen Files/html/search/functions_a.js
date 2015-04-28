@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['start',['Start',['../class_circle_script.html#a79d3a6c4e26f7235eff64bcb1bb8af99',1,'CircleScript.Start()'],['../class_difficulty_script.html#a4238d7fde036dfd58b2e1087ce40d176',1,'DifficultyScript.Start()'],['../class_g_o_manager_script.html#ad493e0419dd25ba9aa8f6945340c1711',1,'GOManagerScript.Start()'],['../classhand_script.html#a17986f73e63381c246a9b4b453278fc7',1,'handScript.Start()'],['../class_manager_script.html#a70c096ffb8ab7c8a8bab73bee1992869',1,'ManagerScript.Start()'],['../class_pause_menu.html#a5325fe2fbc7a7d39408b6dab0a129c88',1,'PauseMenu.Start()'],['../classshooter_script.html#a5537eb84985ee1bd03183f66b4f87237',1,'shooterScript.Start()'],['../classspawner_script.html#a51f0da0f6ec9342ee86ea7888d66fff8',1,'spawnerScript.Start()'],['../classsquare_spawn_script.html#adfc7e870640ae864df5da2c89c275c21',1,'squareSpawnScript.Start()'],['../classtriangle_script.html#ab63e77d33e9bd070628898b9926a7dad',1,'triangleScript.Start()']]]
+  ['quitter',['Quitter',['../classmenu_script.html#a741eca3b4ba3e4e9dd70a6d871c0fff3',1,'menuScript']]]
 ];

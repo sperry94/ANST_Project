@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hard',['Hard',['../class_difficulty_script.html#a114d050f8e4c4bc684728ea9d4f143d1',1,'DifficultyScript']]]
+  ['getscores',['GetScores',['../class_h_s_controller.html#a91ca22b500452be2f96da94cb549dbc9',1,'HSController']]]
 ];
