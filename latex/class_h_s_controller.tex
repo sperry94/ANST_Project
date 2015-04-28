@@ -1,6 +1,7 @@
-\hypertarget{class_h_s_controller}{}\section{H\+S\+Controller Class Reference}
-\label{class_h_s_controller}\index{H\+S\+Controller@{H\+S\+Controller}}
-Inheritance diagram for H\+S\+Controller\+:\begin{figure}[H]
+\hypertarget{class_h_s_controller}{\section{H\-S\-Controller Class Reference}
+\label{class_h_s_controller}\index{H\-S\-Controller@{H\-S\-Controller}}
+}
+Inheritance diagram for H\-S\-Controller\-:\begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[height=2.000000cm]{class_h_s_controller}
@@ -9,75 +10,85 @@ Inheritance diagram for H\+S\+Controller\+:\begin{figure}[H]
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-string \hyperlink{class_h_s_controller_a600035d811db21a2a3380c292b3c4e9f}{Md5\+Sum} (string str\+To\+Encrypt)
+string \hyperlink{class_h_s_controller_a600035d811db21a2a3380c292b3c4e9f}{Md5\-Sum} (string str\-To\-Encrypt)
 \end{DoxyCompactItemize}
 \subsection*{Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
-string \hyperlink{class_h_s_controller_a0085dc21a81423ef8320f567f77cc8a5}{add\+Score\+U\+R\+L} = \char`\"{}http\+://obscure-\/sierra-\/1112.herokuapp.\+com/addscore.\+php?\char`\"{}
+string \hyperlink{class_h_s_controller_a0085dc21a81423ef8320f567f77cc8a5}{add\-Score\-U\-R\-L} = \char`\"{}http\-://obscure-\/sierra-\/1112.herokuapp.\-com/addscore.\-php?\char`\"{}
 \item 
-string \hyperlink{class_h_s_controller_a93e0dc2ed28bdd7d165934abc0a04545}{highscore\+U\+R\+L} = \char`\"{}http\+://obscure-\/sierra-\/1112.herokuapp.\+com/display.\+php\char`\"{}
+string \hyperlink{class_h_s_controller_a93e0dc2ed28bdd7d165934abc0a04545}{highscore\-U\-R\-L} = \char`\"{}http\-://obscure-\/sierra-\/1112.herokuapp.\-com/display.\-php\char`\"{}
 \end{DoxyCompactItemize}
 \subsection*{Private Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 void \hyperlink{class_h_s_controller_ad9bf5c196ec145b5475cd4b6a6c8909a}{Start} ()
 \item 
-I\+Enumerator \hyperlink{class_h_s_controller_a70db2c7b40c2f57db06c2e284bbd557b}{Post\+Scores} (string name, int score)
+I\-Enumerator \hyperlink{class_h_s_controller_a70db2c7b40c2f57db06c2e284bbd557b}{Post\-Scores} (string name, int score)
 \item 
-I\+Enumerator \hyperlink{class_h_s_controller_a91ca22b500452be2f96da94cb549dbc9}{Get\+Scores} ()
+I\-Enumerator \hyperlink{class_h_s_controller_a91ca22b500452be2f96da94cb549dbc9}{Get\-Scores} ()
 \end{DoxyCompactItemize}
 \subsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
-string \hyperlink{class_h_s_controller_ac0db055fde969bb2c85a406323d3aea2}{secret\+Key} = \char`\"{}A\+O\+T24\+L\+Y\+F\+E\char`\"{}
+string \hyperlink{class_h_s_controller_ac0db055fde969bb2c85a406323d3aea2}{secret\-Key} = \char`\"{}A\-O\-T24\-L\-Y\-F\-E\char`\"{}
 \end{DoxyCompactItemize}
 
 
+\subsection{Detailed Description}
+This script manages the server interaction. 
+
 \subsection{Member Function Documentation}
-\hypertarget{class_h_s_controller_a91ca22b500452be2f96da94cb549dbc9}{}\index{H\+S\+Controller@{H\+S\+Controller}!Get\+Scores@{Get\+Scores}}
-\index{Get\+Scores@{Get\+Scores}!H\+S\+Controller@{H\+S\+Controller}}
-\subsubsection[{Get\+Scores}]{\setlength{\rightskip}{0pt plus 5cm}I\+Enumerator H\+S\+Controller.\+Get\+Scores (
+\hypertarget{class_h_s_controller_a91ca22b500452be2f96da94cb549dbc9}{\index{H\-S\-Controller@{H\-S\-Controller}!Get\-Scores@{Get\-Scores}}
+\index{Get\-Scores@{Get\-Scores}!HSController@{H\-S\-Controller}}
+\subsubsection[{Get\-Scores}]{\setlength{\rightskip}{0pt plus 5cm}I\-Enumerator H\-S\-Controller.\-Get\-Scores (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\label{class_h_s_controller_a91ca22b500452be2f96da94cb549dbc9}
-\hypertarget{class_h_s_controller_a600035d811db21a2a3380c292b3c4e9f}{}\index{H\+S\+Controller@{H\+S\+Controller}!Md5\+Sum@{Md5\+Sum}}
-\index{Md5\+Sum@{Md5\+Sum}!H\+S\+Controller@{H\+S\+Controller}}
-\subsubsection[{Md5\+Sum}]{\setlength{\rightskip}{0pt plus 5cm}string H\+S\+Controller.\+Md5\+Sum (
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}}\label{class_h_s_controller_a91ca22b500452be2f96da94cb549dbc9}
+This function returns the top 5 scores in the database into a Text field. \hypertarget{class_h_s_controller_a600035d811db21a2a3380c292b3c4e9f}{\index{H\-S\-Controller@{H\-S\-Controller}!Md5\-Sum@{Md5\-Sum}}
+\index{Md5\-Sum@{Md5\-Sum}!HSController@{H\-S\-Controller}}
+\subsubsection[{Md5\-Sum}]{\setlength{\rightskip}{0pt plus 5cm}string H\-S\-Controller.\-Md5\-Sum (
 \begin{DoxyParamCaption}
-\item[{string}]{str\+To\+Encrypt}
+\item[{string}]{str\-To\-Encrypt}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}}\label{class_h_s_controller_a600035d811db21a2a3380c292b3c4e9f}
-\hypertarget{class_h_s_controller_a70db2c7b40c2f57db06c2e284bbd557b}{}\index{H\+S\+Controller@{H\+S\+Controller}!Post\+Scores@{Post\+Scores}}
-\index{Post\+Scores@{Post\+Scores}!H\+S\+Controller@{H\+S\+Controller}}
-\subsubsection[{Post\+Scores}]{\setlength{\rightskip}{0pt plus 5cm}I\+Enumerator H\+S\+Controller.\+Post\+Scores (
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_h_s_controller_a600035d811db21a2a3380c292b3c4e9f}
+This function is used to encrypt a string for use in the server side interactions. \hypertarget{class_h_s_controller_a70db2c7b40c2f57db06c2e284bbd557b}{\index{H\-S\-Controller@{H\-S\-Controller}!Post\-Scores@{Post\-Scores}}
+\index{Post\-Scores@{Post\-Scores}!HSController@{H\-S\-Controller}}
+\subsubsection[{Post\-Scores}]{\setlength{\rightskip}{0pt plus 5cm}I\-Enumerator H\-S\-Controller.\-Post\-Scores (
 \begin{DoxyParamCaption}
 \item[{string}]{name, }
 \item[{int}]{score}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\label{class_h_s_controller_a70db2c7b40c2f57db06c2e284bbd557b}
-\hypertarget{class_h_s_controller_ad9bf5c196ec145b5475cd4b6a6c8909a}{}\index{H\+S\+Controller@{H\+S\+Controller}!Start@{Start}}
-\index{Start@{Start}!H\+S\+Controller@{H\+S\+Controller}}
-\subsubsection[{Start}]{\setlength{\rightskip}{0pt plus 5cm}void H\+S\+Controller.\+Start (
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}}\label{class_h_s_controller_a70db2c7b40c2f57db06c2e284bbd557b}
+This function posts the score of the game to the database. It then calls the get scores function to return the scores to the game over screen high scores list 
+\begin{DoxyParams}{Parameters}
+{\em name} & the username of the player \\
+\hline
+{\em score} & the score of the player \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_h_s_controller_ad9bf5c196ec145b5475cd4b6a6c8909a}{\index{H\-S\-Controller@{H\-S\-Controller}!Start@{Start}}
+\index{Start@{Start}!HSController@{H\-S\-Controller}}
+\subsubsection[{Start}]{\setlength{\rightskip}{0pt plus 5cm}void H\-S\-Controller.\-Start (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\label{class_h_s_controller_ad9bf5c196ec145b5475cd4b6a6c8909a}
-
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}}\label{class_h_s_controller_ad9bf5c196ec145b5475cd4b6a6c8909a}
+This function runs when the script is first initialized. It runs the postscores function. 
 
 \subsection{Member Data Documentation}
-\hypertarget{class_h_s_controller_a0085dc21a81423ef8320f567f77cc8a5}{}\index{H\+S\+Controller@{H\+S\+Controller}!add\+Score\+U\+R\+L@{add\+Score\+U\+R\+L}}
-\index{add\+Score\+U\+R\+L@{add\+Score\+U\+R\+L}!H\+S\+Controller@{H\+S\+Controller}}
-\subsubsection[{add\+Score\+U\+R\+L}]{\setlength{\rightskip}{0pt plus 5cm}string H\+S\+Controller.\+add\+Score\+U\+R\+L = \char`\"{}http\+://obscure-\/sierra-\/1112.herokuapp.\+com/addscore.\+php?\char`\"{}}\label{class_h_s_controller_a0085dc21a81423ef8320f567f77cc8a5}
-\hypertarget{class_h_s_controller_a93e0dc2ed28bdd7d165934abc0a04545}{}\index{H\+S\+Controller@{H\+S\+Controller}!highscore\+U\+R\+L@{highscore\+U\+R\+L}}
-\index{highscore\+U\+R\+L@{highscore\+U\+R\+L}!H\+S\+Controller@{H\+S\+Controller}}
-\subsubsection[{highscore\+U\+R\+L}]{\setlength{\rightskip}{0pt plus 5cm}string H\+S\+Controller.\+highscore\+U\+R\+L = \char`\"{}http\+://obscure-\/sierra-\/1112.herokuapp.\+com/display.\+php\char`\"{}}\label{class_h_s_controller_a93e0dc2ed28bdd7d165934abc0a04545}
-\hypertarget{class_h_s_controller_ac0db055fde969bb2c85a406323d3aea2}{}\index{H\+S\+Controller@{H\+S\+Controller}!secret\+Key@{secret\+Key}}
-\index{secret\+Key@{secret\+Key}!H\+S\+Controller@{H\+S\+Controller}}
-\subsubsection[{secret\+Key}]{\setlength{\rightskip}{0pt plus 5cm}string H\+S\+Controller.\+secret\+Key = \char`\"{}A\+O\+T24\+L\+Y\+F\+E\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}\label{class_h_s_controller_ac0db055fde969bb2c85a406323d3aea2}
+\hypertarget{class_h_s_controller_a0085dc21a81423ef8320f567f77cc8a5}{\index{H\-S\-Controller@{H\-S\-Controller}!add\-Score\-U\-R\-L@{add\-Score\-U\-R\-L}}
+\index{add\-Score\-U\-R\-L@{add\-Score\-U\-R\-L}!HSController@{H\-S\-Controller}}
+\subsubsection[{add\-Score\-U\-R\-L}]{\setlength{\rightskip}{0pt plus 5cm}string H\-S\-Controller.\-add\-Score\-U\-R\-L = \char`\"{}http\-://obscure-\/sierra-\/1112.herokuapp.\-com/addscore.\-php?\char`\"{}}}\label{class_h_s_controller_a0085dc21a81423ef8320f567f77cc8a5}
+This holds the url to be used when adding a score. \hypertarget{class_h_s_controller_a93e0dc2ed28bdd7d165934abc0a04545}{\index{H\-S\-Controller@{H\-S\-Controller}!highscore\-U\-R\-L@{highscore\-U\-R\-L}}
+\index{highscore\-U\-R\-L@{highscore\-U\-R\-L}!HSController@{H\-S\-Controller}}
+\subsubsection[{highscore\-U\-R\-L}]{\setlength{\rightskip}{0pt plus 5cm}string H\-S\-Controller.\-highscore\-U\-R\-L = \char`\"{}http\-://obscure-\/sierra-\/1112.herokuapp.\-com/display.\-php\char`\"{}}}\label{class_h_s_controller_a93e0dc2ed28bdd7d165934abc0a04545}
+This holds the url to be used when gettting the scores. \hypertarget{class_h_s_controller_ac0db055fde969bb2c85a406323d3aea2}{\index{H\-S\-Controller@{H\-S\-Controller}!secret\-Key@{secret\-Key}}
+\index{secret\-Key@{secret\-Key}!HSController@{H\-S\-Controller}}
+\subsubsection[{secret\-Key}]{\setlength{\rightskip}{0pt plus 5cm}string H\-S\-Controller.\-secret\-Key = \char`\"{}A\-O\-T24\-L\-Y\-F\-E\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}}\label{class_h_s_controller_ac0db055fde969bb2c85a406323d3aea2}
+This variable holds the secretkey designated in the server files as well. 
 
-
-The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
 \item 
-A\+O\+T2/\+Assets/\+Scripts/\hyperlink{_h_s_controller_8cs}{H\+S\+Controller.\+cs}\end{DoxyCompactItemize}
+A\-O\-T2/\-Assets/\-Scripts/\hyperlink{_h_s_controller_8cs}{H\-S\-Controller.\-cs}\end{DoxyCompactItemize}
