@@ -7,8 +7,6 @@ Project("{71084285-3FA9-6357-0803-1836205052D1}") = "AOT2", "Assembly-CSharp.csp
 EndProject
 Project("{71084285-3FA9-6357-0803-1836205052D1}") = "AOT2", "Assembly-CSharp-Editor.csproj", "{D9A0D370-8C3B-23B6-2516-AC320EAF41D6}"
 EndProject
-Project("{71084285-3FA9-6357-0803-1836205052D1}") = "AOT2", "Assembly-UnityScript.unityproj", "{B9A47F96-0E8C-9A52-27D5-1D22C40F8FB5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,15 +25,11 @@ Global
 		{D9A0D370-8C3B-23B6-2516-AC320EAF41D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9A0D370-8C3B-23B6-2516-AC320EAF41D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9A0D370-8C3B-23B6-2516-AC320EAF41D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B9A47F96-0E8C-9A52-27D5-1D22C40F8FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9A47F96-0E8C-9A52-27D5-1D22C40F8FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9A47F96-0E8C-9A52-27D5-1D22C40F8FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9A47F96-0E8C-9A52-27D5-1D22C40F8FB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																																												GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																																																	GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																																																																							GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> origin/master

@@ -4,20 +4,44 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
+/**
+ * This script manages the server interaction.
+ */
 public class HSController : MonoBehaviour
 {
+	/**
+ 	 * This variable holds the secretkey designated in the server files as well.
+ 	 */
 	private string secretKey = "AOT24LYFE"; // Edit this value and make sure it's the same as the one stored on the server
+	/**
+ 	 * This holds the url to be used when adding a score.
+ 	 */
 	public string addScoreURL = "http://obscure-sierra-1112.herokuapp.com/addscore.php?"; //be sure to add a ? to your url
+	/**
+ 	 * This holds the url to be used when gettting the scores.
+ 	 */
 	public string highscoreURL = "http://obscure-sierra-1112.herokuapp.com/display.php";
-	
+
+
+	/**
+ 	 * This function runs when the script is first initialized. It runs the postscores function.
+ 	 */
 	void Start()
 	{
 		StartCoroutine(PostScores(menuScript.username, ManagerScript.totScoreInt));
 	}
-	
-	// remember to use StartCoroutine when calling this function!
+
+
+	/**
+ 	 * This function posts the score of the game to the database.
+ 	 * It then calls the get scores function to return the scores to the game
+ 	 * over screen high scores list
+ 	 * @param name the username of the player
+ 	 * @param score the score of the player
+ 	 */
 	IEnumerator PostScores(string name, int score)
 	{
+		// remember to use StartCoroutine when calling this function!
 		//This connects to a server side php script that will add the name and score to a MySQL DB.
 		// Supply it with a string representing the players name and the players score.
 		string hash = Md5Sum(name + score + secretKey);
@@ -35,10 +59,13 @@ public class HSController : MonoBehaviour
 		StartCoroutine(GetScores());
 	}
 	
-	// Get the scores from the MySQL DB to display in a GUIText.
-	// remember to use StartCoroutine when calling this function!
+	/**
+ 	 * This function returns the top 5 scores in the database into a Text field.
+ 	 */
 	IEnumerator GetScores()
 	{
+		// Get the scores from the MySQL DB to display in a GUIText.
+		// remember to use StartCoroutine when calling this function!
 		gameObject.GetComponent<Text>().text = "Loading Scores";
 		WWW hs_get = new WWW(highscoreURL);
 		yield return hs_get;
@@ -53,6 +80,9 @@ public class HSController : MonoBehaviour
 		}
 	}
 
+	/**
+ 	 * This function is used to encrypt a string for use in the server side interactions.
+ 	 */
 	public  string Md5Sum(string strToEncrypt)
 	{
 		System.Text.UTF8Encoding ue = new System.Text.UTF8Encoding();

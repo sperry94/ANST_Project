@@ -17,7 +17,7 @@ public class ManagerScript : MonoBehaviour {
 	int score;
 
 	/**
-	 * The variable to the total score as an integer.
+	 * The variable to store the total score as an integer.
 	 */
 	public static int totScoreInt;
 
