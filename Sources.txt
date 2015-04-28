@@ -15,4 +15,19 @@ http://answers.unity3d.com/questions/35825/count-the-number-of-objects-with-a-ce
 http://coolestguidesontheplanet.com/installing-phpmyadmin-on-mac-osx-10-7-lion/
 http://coolestguidesontheplanet.com/install-configure-apache-mysql-php-phpmyadmin-osx-10-8-mountain-lion/
 http://www.cyberciti.biz/faq/apache-403-forbidden-error-and-solution/
+http://www.w3schools.com/php/func_mysqli_query.asp
+https://devcenter.heroku.com/articles/cleardb#using-cleardb-with-php
+http://php.net/substr
+http://php.net/manual/en/function.parse-url.php
+https://dev.mysql.com/doc/refman/5.0/en/connecting.html
+http://www.cleardb.com/developers/help/faq#general_17
+http://php.net/manual/en/mysqli-result.fetch-array.php
+https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial
+http://php.net/manual/en/reserved.variables.get.php
+http://php.net/manual/en/mysqli.real-escape-string.php
+https://dev.mysql.com/doc/refman/5.0/en/delete.html
+
+SERVER CODE SOURCES
 http://wiki.unity3d.com/index.php?title=Server_Side_Highscores
+https://github.com/heroku/php-getting-started.git
+http://codular.com/php-mysqli

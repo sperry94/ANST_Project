@@ -1,11 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GOManagerScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HSController.cs">
     <Files>
+      <File FileName="Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/squareScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ManagerScript.cs" Line="50" Column="51" />
+      <File FileName="Assets/Scripts/ManagerScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/spawnerScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GOManagerScript.cs" Line="4" Column="14" />
+      <File FileName="Assets/Scripts/GOManagerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DifficultyScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/HSController.cs" Line="33" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

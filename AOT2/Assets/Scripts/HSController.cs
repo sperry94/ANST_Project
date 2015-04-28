@@ -7,8 +7,8 @@ using System.Collections;
 public class HSController : MonoBehaviour
 {
 	private string secretKey = "AOT24LYFE"; // Edit this value and make sure it's the same as the one stored on the server
-	public string addScoreURL = "http://localhost/addscore.php?"; //be sure to add a ? to your url
-	public string highscoreURL = "http://localhost/display.php";
+	public string addScoreURL = "http://obscure-sierra-1112.herokuapp.com/addscore.php?"; //be sure to add a ? to your url
+	public string highscoreURL = "http://obscure-sierra-1112.herokuapp.com/display.php";
 	
 	void Start()
 	{
